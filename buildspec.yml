@@ -7,4 +7,5 @@ phases:
   build:
     commands:
       - echo "I'm a real build script"
+      - MY_VAR="bla bla bla"
       - sh build.sh
