@@ -1,4 +1,4 @@
 #!/bin/bash -xe
 
 echo "Stop echoing yourself"
-echo $MY_VAR
+echo $BUILD_PACKAGE_VERSION
