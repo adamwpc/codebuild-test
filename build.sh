@@ -1,4 +1,4 @@
-#!/bin/bash -xe
+#!/bin/sh
 
 echo "Stop echoing yourself"
 echo $BUILD_PACKAGE_VERSION
