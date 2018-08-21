@@ -8,4 +8,4 @@ phases:
       - BUILD_PACKAGE_VERSION="$MAJOR_VERSION.$(date +%s)$( ([ $GIT_BRANCH_NAME != 'master' ] && echo '-beta') || echo '')+$GIT_BRANCH_NAME"
       - ls
       - pwd
-      - chmod +x build.sh && ./build.sh
+      - chmod +x build.sh && build.sh
