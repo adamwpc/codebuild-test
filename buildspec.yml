@@ -9,4 +9,4 @@ phases:
       - MAJOR_VERSION=1.0
       - GIT_BRANCH_NAME=$(git describe --all | cut -d '/' -f 2- | tr -d '\n' | tr -c '[[:alnum:]].-' '-')
       - BUILD_PACKAGE_VERSION="$MAJOR_VERSION.$(date +%s)$( ([ $GIT_BRANCH_NAME != 'master' ] && echo '-beta') || echo '')+$GIT_BRANCH_NAME"
-      - sh build.sh
+      - ./build.sh
